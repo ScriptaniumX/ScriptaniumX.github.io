@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ScriptaniumX - Un site d'expérimentation moderne">
+    <title>ScriptaniumX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__brand">
+                    <h1>ScriptaniumX</h1>
+                </div>
+                <ul class="navbar__menu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h2>Bienvenue sur ScriptaniumX</h2>
+                    <p>Un site d'expérimentation moderne et innovant</p>
+                    <a href="#projets" class="btn btn--primary">Découvrir</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="projects">
+            <div class="container">
+                <h2 class="section-title">Nos Projets</h2>
+                <div class="projects__grid">
+                    <div class="card">
+                        <div class="card__icon">🚀</div>
+                        <h3>Expérimentation</h3>
+                        <p>Découvrez nos dernières expériences technologiques</p>
+                    </div>
+                    <div class="card">
+                        <div class="card__icon">💡</div>
+                        <h3>Innovation</h3>
+                        <p>Des idées créatives et des solutions modernes</p>
+                    </div>
+                    <div class="card">
+                        <div class="card__icon">🔧</div>
+                        <h3>Développement</h3>
+                        <p>Code de qualité et pratiques best practices</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contactez-nous</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ScriptaniumX. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
